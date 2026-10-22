@@ -1,0 +1,104 @@
+header{
+    background-color:   rgb(255, 76, 76);
+    text-align: center;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding-inline: 100px;
+    
+}
+
+.logo{
+    text-align: left;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.container{
+    position: relative;
+}
+
+input{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 50px;
+    outline: none;
+    font-size: irem;
+}
+
+.link{
+    padding: 10px;
+    transition: transform 0.3s ease, background-color 0.3 ease;
+    border-radius: 10px;
+}
+
+.link:hover{
+    transform: translateY(-5px);
+    background-color:   gold;
+    color: black;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+.img-producto{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+}
+
+.foto{
+    border-radius: 25px;
+    width: 600px;
+}
+
+.compra-producto{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+}
+
+.compra{
+    text-align: center;
+    margin-left: 250px;
+    padding: 10px;
+    background-color: rgb(13, 199, 13);
+    transition: transform 0.3s ease, background-color 0.3 ease;
+}
+
+.compra:hover{
+    transform: translateY(-5px);
+}
+
+.extra{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.producto{
+    margin-inline: 50px;
+    display: inline-block;
+    padding: 100px;
+    transition: transform 0.3s ease, background-color 0.3 ease;
+}
+
+.producto:hover{
+    transform: translateY(-5px);
+}
+
+footer{
+    padding: 50px;
+    border-radius: 10px;
+}
